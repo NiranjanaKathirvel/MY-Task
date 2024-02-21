@@ -29,11 +29,13 @@ body{
     color: darkblue;
     text-decoration: underline;
     position: relative;
-    top: 8px;
+    top: 0px;
     font-size: 30px;
 }
 .namedetails p{
     color: darkblue;
+    position: relative;
+    top: 0px;
 }
 .logo4{
     position: absolute;
@@ -62,7 +64,7 @@ body{
 }
 .navbar{
     background-color: darkblue;
-    height: 30px;
+    height: 40px;
     display: flex; 
     align-items: center;
     justify-content: space-around;
@@ -76,7 +78,8 @@ body{
 }
 .navbar ul li{
     padding-left: 80px;
-    font-size: 18px;
+    font-weight: bolder;
+    font-size: 20px;
 }
 .navbar ul li a{
     color: #f3f2f2;
@@ -150,7 +153,7 @@ body{
 
 .menu_items{
   display: flex;
-  gap: 3.5rem;
+  gap: 3 rem;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -179,7 +182,7 @@ body{
     background-color: orange;
     color: white;
     border: none;
-    font-size: 10px;
+    font-size: 20px;
     border-radius: 3px;
     position: relative;
     left: 100px;
@@ -251,9 +254,10 @@ form input[type=text],input[type=email]{
     position: relative;
     left: 0px;
     width: 50%;
-    background-color: transparent;
+    background-color: white;
     border: 1px solid #4b4b4b;
-    color: #cbc9c9;
+    color:black;
+    cursor: pointer;
     border-radius: 10px;
   }
     .contactus h2{
